@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.container .total-sum{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    padding: 30px 0;
+    background: darkturquoise;
+    border-radius: 10px 0 0 10px;
+}
+
+.container .total-sum h3{
+    font-size: 20px;
+}
+
+.container .table-box{
+    width: 700px;
+    height: 500px;
+    margin: 100px auto;
+}
+
+.container .table-box table{
+    width: 100%;
+    height: auto;
+}
+
+.container .table-box table thead .name-col-tbl td.one{
+    background: #e4e4e4;
+}
+
+
+.container .table-box table thead tr{
+    background: #b4fff3;
+    padding: 10px 5px;
+    border: 1px solid #333;
+}
+
+.container .table-box table thead tr td{
+    padding: 10px 5px;
+    border: 1px solid #333;
+    font-weight: bold;
+}
+
+.container .table-box table tbody tr td{
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    padding: 5px 10px;
+}
+
+.container .table-box table tbody tr td .plus, .container .table-box table tbody tr td .minus{
+    width: 40px;
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.container .table-box table tbody tr td .plus{
+    background: #96ff00;
+}
+
+.container .table-box table tbody tr td .minus{
+    background: #ff8800;
+}
+
