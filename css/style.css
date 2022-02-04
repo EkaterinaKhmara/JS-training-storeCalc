@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 100%;
     height: auto;
 }
 
-.container .total-sum{
+.container .total-sum {
     width: 100px;
     height: 80px;
     position: absolute;
@@ -20,46 +20,43 @@
     border-radius: 10px 0 0 10px;
 }
 
-.container .total-sum h3{
+.container .total-sum h3 {
     font-size: 20px;
 }
 
-.container .table-box{
+.container .table-box {
     width: 700px;
     height: 500px;
     margin: 100px auto;
 }
 
-.container .table-box table{
+.container .table-box table {
     width: 100%;
     height: auto;
 }
 
-.container .table-box table thead .name-col-tbl td.one{
+.container .table-box table thead .name-col-tbl td.one {
     background: #e4e4e4;
 }
 
-
-.container .table-box table thead tr{
+.container .table-box table thead tr {
     background: #b4fff3;
-    padding: 10px 5px;
-    border: 1px solid #333;
 }
 
-.container .table-box table thead tr td{
+.container .table-box table thead tr td {
     padding: 10px 5px;
     border: 1px solid #333;
     font-weight: bold;
 }
 
-.container .table-box table tbody tr td{
+.container .table-box table tbody tr td {
     border-bottom: 1px solid #333;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
     padding: 5px 10px;
 }
 
-.container .table-box table tbody tr td .plus, .container .table-box table tbody tr td .minus{
+.container .table-box table tbody tr td .plus, .container .table-box table tbody tr td .minus {
     width: 40px;
     height: 30px;
     margin: 0 5px;
@@ -68,11 +65,23 @@
     border-radius: 5px;
 }
 
-.container .table-box table tbody tr td .plus{
+.container .table-box table tbody tr td .plus {
     background: #96ff00;
 }
 
-.container .table-box table tbody tr td .minus{
+.container .table-box table tbody tr td .plus span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #314b0d;
+}
+
+.container .table-box table tbody tr td .minus {
     background: #ff8800;
+}
+
+.container .table-box table tbody tr td .minus span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #875114;
 }
 

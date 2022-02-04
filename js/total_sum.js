@@ -1,10 +1,10 @@
-function total_sum (){
+function total_sum() {
 
     let butP = document.querySelectorAll('button')
 
-    butP.forEach(function (x){
+    butP.forEach(function (elem) {
 
-        x.addEventListener('click', function (){
+        elem.addEventListener('click', function () {
             let total = document.querySelector('h3')
             let full = document.querySelectorAll('.fullP')
             let sum = 0
@@ -15,7 +15,7 @@ function total_sum (){
                     total.innerHTML = +sum
                 })
 
-                total.innerHTML = parseFloat(sum).toFixed(2)
+            total.innerHTML = parseFloat(sum).toFixed(2)
 
         })
     })
